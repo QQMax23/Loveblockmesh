@@ -56,9 +56,14 @@ case $choice in
             sudo apt install tar -y
         fi
         sleep 1
-        
+        # Скачиваем Мэнеджер BlockMesh
+        https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.397/block-mesh-manager-x86_64-unknown-linux-gnu.tar.gz
+        # Распаковываем архив
+        tar -xzvf block-mesh-manager-x86_64-unknown-linux-gnu.tar.gz
+        sleep 1
+
         # Скачиваем бинарник BlockMesh
-        wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.396/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
+        wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.397/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
 
         # Распаковываем архив
         tar -xzvf blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
