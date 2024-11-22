@@ -17,7 +17,7 @@ fi
 sleep 1
 
 # Отображаем логотип
-curl -s https://raw.githubusercontent.com/noxuspace/cryptofortochka/main/logo_forto.sh | bash
+curl -s https://raw.githubusercontent.com/QQMax23/Loveblockmesh/refs/heads/main/logo_max.sh | bash
 
 # Проверка наличия bc и установка, если не установлен
 echo -e "${BLUE}Проверяем версию вашей OS...${NC}"
@@ -58,7 +58,7 @@ case $choice in
         sleep 1
         
         # Скачиваем бинарник BlockMesh
-        wget https://github.com/block-mesh/block-mesh-monorepo/releases/https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.397/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
+        wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.397/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
 
         # Распаковываем архив
         tar -xzvf blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
@@ -138,7 +138,7 @@ EOT"
         sleep 1
 
         # Скачиваем новый бинарник BlockMesh
-        wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.377/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
+        wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.397/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
 
         # Распаковываем архив
         tar -xzvf blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
